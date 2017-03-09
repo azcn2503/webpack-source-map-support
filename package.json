@@ -12,7 +12,9 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "source-map-support": "0.4.11",
-    "webpack": "2.2.1"
+    "source-map-support": "0.4.11"
+  },
+  "peerDependencies": {
+    "webpack": "^1.13.3"
   }
 }
