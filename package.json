@@ -1,0 +1,15 @@
+{
+  "name": "webpack-source-map-support",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Cunnington <azcn2503@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "source-map-support": "0.4.11",
+    "webpack": "2.2.1"
+  }
+}
