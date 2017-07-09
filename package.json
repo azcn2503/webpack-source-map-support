@@ -1,6 +1,6 @@
 {
   "name": "webpack-source-map-support",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "A simple way to enable source-map support for your backend Webpack built applications",
   "main": "index.js",
   "scripts": {

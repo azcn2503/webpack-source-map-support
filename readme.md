@@ -1,5 +1,7 @@
 # Webpack Source Map Support
 
+[![Build Status](https://travis-ci.org/azcn2503/webpack-source-map-support.svg?branch=master)](https://travis-ci.org/azcn2503/webpack-source-map-support)
+
 A simple way to enable source-map support for your backend Webpack built applications:
 
 ### How to use:
