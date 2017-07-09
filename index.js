@@ -1,8 +1,8 @@
-var webpack = require("webpack");
+const webpack = require("webpack");
 
-var plugin = function() {
+const plugin = function() {
   return new webpack.BannerPlugin({
-    banner: "require(\"source-map-support\").install();",
+    banner: 'require("source-map-support").install();',
     raw: true,
     entryOnly: false
   });

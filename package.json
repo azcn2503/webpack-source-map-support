@@ -1,10 +1,10 @@
 {
   "name": "webpack-source-map-support",
   "version": "1.0.4",
-  "description": "",
+  "description": "A simple way to enable source-map support for your backend Webpack built applications",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": {
     "name": "Aaron Cunnington",
@@ -12,7 +12,7 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "source-map-support": "0.4.11"
+    "jest": "^20.0.4"
   },
   "peerDependencies": {
     "webpack": "^1.13.3"
@@ -20,5 +20,16 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/azcn2503/webpack-source-map-support"
+  },
+  "engines": {
+    "node": ">=6.9.5"
+  },
+  "dependencies": {
+    "source-map-support": "0.4.11"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
   }
 }
